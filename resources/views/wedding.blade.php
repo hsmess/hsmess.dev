@@ -92,7 +92,7 @@
         <script>
             (function(){
                 // Replace with your asset's playback ID
-                var playbackId = config('env.playback_id');
+                var playbackId = "{{config('env.playback_id')}}";
                 var url = "https://stream.mux.com/"+playbackId+".m3u8";
                 var video = document.getElementById("myVideo");
 
