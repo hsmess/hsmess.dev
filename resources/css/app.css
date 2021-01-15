@@ -1,0 +1,48 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+
+.custom-logo-css{
+    height: 120px;
+}
+.bg-white{
+    background: #fef6e4;
+}
+.bg-secondary{
+    background: #f3d2c1;
+}
+.text-indigo-600{
+    color: #f582ae;
+}
+.bg-indigo-600{
+    background-color: #f582ae;
+}
+.bg-indigo-700{
+    background-color: #ad0d4a;
+}
+.hover\:bg-indigo-700:hover{
+    background-color: #ad0d4a;
+}
+@media (max-width: 1023px){
+    .op-2{
+        object-position: 0 25%;
+    }
+}
+em{
+    color: #ad0d4a;
+    font-weight: bolder;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#container{
+    overflow-y: scroll;
+}
+.space{
+    margin-left: 6px;
+}
