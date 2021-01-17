@@ -14,6 +14,9 @@
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
     <link rel="stylesheet" type="text/css" href="/fonts/fonts.css" />
+    <!-- Fathom - beautiful, simple website analytics -->
+    <script src="https://cdn.usefathom.com/script.js" data-site="PDGRPIAU" defer></script>
+    <!-- / Fathom -->
 </head>
 <body id="container" class="bg-gray-100 h-screen antialiased leading-none font-sans">
 <!-- This example requires Tailwind CSS v2.0+ -->
